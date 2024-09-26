@@ -31,7 +31,7 @@ function CreateTrip() {
   const [OpenDialogue, setOpenDialogue] = useState(false);
   const [loading, setloading] = useState(false);
 
-  const apiKey = import.meta.env.VITE_LOCATION_IQ_API_KEY;
+  const apiKey = 'pk.ca40827327e54343c9d8f85bc0ebec4c';
   const router = useNavigate();
   const login = useGoogleLogin({
     onSuccess: (codeResp) => GetUserProfile(codeResp),

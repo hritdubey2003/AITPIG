@@ -4,7 +4,7 @@ import { getDoc, doc } from "firebase/firestore";
 import { db } from '@/service/firebaseConfig';
 import InfoSection from '../components/InfoSection';
 import Hotels from '../components/Hotels';
-import PlacesToVisit from '../components/placestovisit'
+import PlacesToVisit from '../components/PlacesToVisit'
 import Footer from '../components/Footer';
 
 function Viewtrip() {

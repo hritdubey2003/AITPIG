@@ -6,7 +6,7 @@
 
   import { GoogleGenerativeAI } from "@google/generative-ai";
   
-  const apiKey = import.meta.env.VITE_GOOGLE_GEMINI_API_KEY;
+  const apiKey = 'AIzaSyDjT6WnLuy_r3RmV2pKKa6qNSGyOpI4AG4';
   const genAI = new GoogleGenerativeAI(apiKey);
   
   const model = genAI.getGenerativeModel({
