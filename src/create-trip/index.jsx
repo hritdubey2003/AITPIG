@@ -85,7 +85,6 @@ function CreateTrip() {
       router('/View-trip/' + docId);
       console.log("Trip saved successfully!");
     } catch (error) {
-      console.log("Hey i am here!");
       console.error("Error saving trip to Firestore:", error);
     }
   };

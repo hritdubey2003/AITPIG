@@ -4,12 +4,12 @@ import { getFirestore } from "firebase/firestore";
 
 // Your Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCYSai2kOjiYy-DQqnV5g527N5E4RBSWU0",
-  authDomain: "aitripgenerator-deda0.firebaseapp.com",
-  projectId: "aitripgenerator-deda0",
-  storageBucket: "aitripgenerator-deda0.appspot.com",
-  messagingSenderId: "1055480369815",
-  appId: "1:1055480369815:web:a08518043cbc5529a88fd2"
+  apiKey: "AIzaSyDm_TjdMR-tQ2bAHelvf72w4K67Es2tCjo",
+  authDomain: "jnvjonjovno.firebaseapp.com",
+  projectId: "jnvjonjovno",
+  storageBucket: "jnvjonjovno.firebasestorage.app",
+  messagingSenderId: "1090902413341",
+  appId: "1:1090902413341:web:25669102a4f1b8444b36f4",
 };
 
 // Initialize Firebase
