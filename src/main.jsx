@@ -26,7 +26,7 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <GoogleOAuthProvider clientId='10576195584-9rod3ejjgnd7pm16gnnvn8kjq0jv3ao2.apps.googleusercontent.com'>
+    <GoogleOAuthProvider clientId='70336289489-228gl9dntcs5gc8e9rt9068tcrjqt53m.apps.googleusercontent.com'>
       <Header />
       <Toaster />
       <RouterProvider router={router} />
