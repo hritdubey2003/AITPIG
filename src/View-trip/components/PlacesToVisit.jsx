@@ -23,10 +23,10 @@ function PlacesToVisit({ trip }) {
       <div>
         {Object.keys(itineraryData).length > 0 ? (
           Object.keys(itineraryData).map((day, index) => (
-            <div key={index} >
+            <div key={index}>
               <h2 className='font-medium text-lg uppercase'>{day}</h2>
               <div className='grid md:grid-cols-2 gap-5'>
-                {itineraryData[day]?.plan?.map((item, idx) => (
+                {(itineraryData[day] || []).map((item, idx) => (
                   <div key={idx} className=''>
                     <h2 className='font-medium text-sm text-orange-600 mb-1'>{item.timeToTravel}</h2>
                     <PlaceCardItem key={idx} place={item} />
