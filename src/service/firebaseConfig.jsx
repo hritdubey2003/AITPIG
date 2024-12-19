@@ -9,7 +9,11 @@ const firebaseConfig = {
   projectId: "jnvjonjovno",
   storageBucket: "jnvjonjovno.firebasestorage.app",
   messagingSenderId: "1090902413341",
+<<<<<<< HEAD
   appId: "1:1090902413341:web:25669102a4f1b8444b36f4",
+=======
+  appId: "1:1090902413341:web:25669102a4f1b8444b36f4"
+>>>>>>> 30bcd85c710919ae86cecd01205d0ca8d0c5edc7
 };
 
 // Initialize Firebase
