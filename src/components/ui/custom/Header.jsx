@@ -38,7 +38,7 @@ function Header() {
           </Popover>
           </div>
           :
-           <Button >Log Out</Button>
+           <Button >Sign In</Button>
         }
       </div>
     </div>
