@@ -86,6 +86,7 @@ function CreateTrip() {
       console.log("Trip saved successfully!");
     } catch (error) {
       console.error("Error saving trip to Firestore:", error);
+      console.log( error )
     }
   };
 
