@@ -38,7 +38,13 @@ function CreateTrip() {
     onError: (error) => console.log(error)
   })
 
-  const GetUserProfile = (tokenInfo) => {
+/*************  ✨ Codeium Command ⭐  *************/
+  /**
+   * Fetches user profile information from Google's OAuth2 API.
+   * @param {Object} tokenInfo - Token information returned from Google's OAuth2 API.
+   * @return {Promise} A Promise which resolves with the user's profile information.
+   */
+/******  ddcee6fd-38d3-40f5-90e9-ddb5f42192a8  *******/  const GetUserProfile = (tokenInfo) => {
     axios.get(`https://www.googleapis.com/oauth2/v1/userinfo?access_token=${tokenInfo?.access_token}`, {
       headers: {
         Authorization: `Bearer $( tokenInfo?.access_token)`,
@@ -74,6 +80,7 @@ function CreateTrip() {
       const docId = Date.now().toString();  // Unique ID based on timestamp
       // Save the trip data to Firestore
       console.log(TripData);
+    
       await setDoc(doc(db, "AITrip", docId), {
         userSelection: FormData,   // User's form data
         tripData: TripData,        // Trip data returned by the AI service

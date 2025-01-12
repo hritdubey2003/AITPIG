@@ -1,19 +1,21 @@
 // Import Firebase and Firestore functions
-import { initializeApp } from "firebase/app";
+import { initializeApp , getApps } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 // Your Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDm_TjdMR-tQ2bAHelvf72w4K67Es2tCjo",
-  authDomain: "jnvjonjovno.firebaseapp.com",
-  projectId: "jnvjonjovno",
-  storageBucket: "jnvjonjovno.firebasestorage.app",
-  messagingSenderId: "1090902413341",
-  appId: "1:1090902413341:web:25669102a4f1b8444b36f4",
-  measurementId: "G-4KETVP8G2P"
+  apiKey: "AIzaSyDJq2cqUxqkXWx7eLmlMglp2ijt6y0FnnM",
+  authDomain: "personal-402e1.firebaseapp.com",
+  projectId: "personal-402e1",
+  storageBucket: "personal-402e1.firebasestorage.app",
+  messagingSenderId: "607903508051",
+  appId: "1:607903508051:web:cc12ff2f767defe94748a6",
+  measurementId: "G-SSQPZC3VZG"
 };
 
+
 // Initialize Firebase
+
 const app = initializeApp(firebaseConfig);
 
 // Initialize Firestore
